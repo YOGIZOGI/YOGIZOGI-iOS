@@ -11,5 +11,8 @@ target 'YOZO_iOS' do
   pod 'SnapKit', '~> 5.6.0'
   pod 'NMapsMap'
   pod 'Kingfisher'
+  pod 'RxSwift', '~> 6.5.0'
+  pod 'RxCocoa', '~> 6.5.0'
+  pod 'RxAlamofire'
 
 end
