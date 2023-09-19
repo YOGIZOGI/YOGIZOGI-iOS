@@ -83,11 +83,11 @@
 				7A2E20DB2A8C68A5000AA770 /* Info.plist */,
 				7A84B4A92AB9C9E100845EF4 /* Models */,
 				7A84B4AA2AB9C9F000845EF4 /* ViewModels */,
-				7A84B4A42AB9C96500845EF4 /* AppDelegate */,
-				7A84B4A32AB9C93700845EF4 /* Resources */,
 				7A84B4A52AB9C98800845EF4 /* Controllers */,
 				7A84B4A62AB9C99F00845EF4 /* Views */,
+				7A84B4A32AB9C93700845EF4 /* Resources */,
 				7A84B4AF2AB9CD0300845EF4 /* Extensions */,
+				7A84B4A42AB9C96500845EF4 /* AppDelegate */,
 			);
 			path = YOZO_iOS;
 			sourceTree = "<group>";
