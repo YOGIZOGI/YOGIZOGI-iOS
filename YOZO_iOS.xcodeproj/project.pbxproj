@@ -12,6 +12,10 @@
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
 		7A2E20D72A8C68A5000AA770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D62A8C68A5000AA770 /* Assets.xcassets */; };
 		7A2E20DA2A8C68A5000AA770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */; };
+		7A84B4AE2AB9CA0700845EF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4AD2AB9CA0700845EF4 /* Sample.swift */; };
+		7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */; };
+		7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */; };
+		7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */; };
 		BC113782D3005D3896D0B8D0 /* Pods_YOZO_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 		7A2E20D62A8C68A5000AA770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2E20D92A8C68A5000AA770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2E20DB2A8C68A5000AA770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A84B4AD2AB9CA0700845EF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
+		7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOZO_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,7 +54,6 @@
 				7144A0FBD6E6FEF58FF69A3D /* Pods-YOZO_iOS.debug.xcconfig */,
 				08ABBDC19F3F5497CE24DD46 /* Pods-YOZO_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -71,14 +78,74 @@
 		7A2E20CC2A8C68A4000AA770 /* YOZO_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */,
-				7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */,
-				7A2E20D12A8C68A4000AA770 /* ViewController.swift */,
-				7A2E20D62A8C68A5000AA770 /* Assets.xcassets */,
-				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
 				7A2E20DB2A8C68A5000AA770 /* Info.plist */,
+				7A84B4AA2AB9C9F000845EF4 /* ViewModels */,
+				7A84B4A42AB9C96500845EF4 /* AppDelegate */,
+				7A84B4A32AB9C93700845EF4 /* Resources */,
+				7A84B4A52AB9C98800845EF4 /* Controllers */,
+				7A84B4A62AB9C99F00845EF4 /* Views */,
+				7A84B4AF2AB9CD0300845EF4 /* Extensions */,
 			);
 			path = YOZO_iOS;
+			sourceTree = "<group>";
+		};
+		7A84B4A32AB9C93700845EF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A2E20D62A8C68A5000AA770 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A84B4A42AB9C96500845EF4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */,
+				7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7A84B4A52AB9C98800845EF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A84B4A92AB9C9E100845EF4 /* Models */,
+				7A2E20D12A8C68A4000AA770 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7A84B4A62AB9C99F00845EF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A84B4A92AB9C9E100845EF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A84B4AA2AB9C9F000845EF4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7A84B4AD2AB9CA0700845EF4 /* Sample.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7A84B4AF2AB9CD0300845EF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */,
+				7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */,
+				7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D80BB08BC56C2947D4C9D403 /* Frameworks */ = {
@@ -203,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A84B4AE2AB9CA0700845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
+				7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */,
+				7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */,
+				7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
