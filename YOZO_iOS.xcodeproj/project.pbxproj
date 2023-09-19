@@ -16,6 +16,7 @@
 		7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */; };
 		7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */; };
 		7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */; };
+		7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B62AB9D01F00845EF4 /* Sample.swift */; };
 		BC113782D3005D3896D0B8D0 /* Pods_YOZO_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
 		7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		7A84B4B62AB9D01F00845EF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOZO_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2E20DB2A8C68A5000AA770 /* Info.plist */,
+				7A84B4A92AB9C9E100845EF4 /* Models */,
 				7A84B4AA2AB9C9F000845EF4 /* ViewModels */,
 				7A84B4A42AB9C96500845EF4 /* AppDelegate */,
 				7A84B4A32AB9C93700845EF4 /* Resources */,
@@ -109,7 +112,6 @@
 		7A84B4A52AB9C98800845EF4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7A84B4A92AB9C9E100845EF4 /* Models */,
 				7A2E20D12A8C68A4000AA770 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -126,6 +128,7 @@
 		7A84B4A92AB9C9E100845EF4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7A84B4B62AB9D01F00845EF4 /* Sample.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A84B4AE2AB9CA0700845EF4 /* Sample.swift in Sources */,
+				7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
