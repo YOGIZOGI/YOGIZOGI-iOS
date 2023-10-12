@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A1CF7382AD855DD006616B3 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CF7372AD855DD006616B3 /* UILabel+Extension.swift */; };
+		7A1CF73A2AD856A3006616B3 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CF7392AD856A3006616B3 /* SignUpModel.swift */; };
 		7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */; };
 		7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */; };
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		20EB566D24C49DC83885D945 /* Pods-YOZO_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.release.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		6D180CF6A2030E7A124B70E9 /* Pods-YOZO_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.debug.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7A1CF7372AD855DD006616B3 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		7A1CF7392AD856A3006616B3 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		7A2E20CA2A8C68A4000AA770 /* YOZO_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOZO_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7A84B4B62AB9D01F00845EF4 /* Sample.swift */,
+				7A1CF7392AD856A3006616B3 /* SignUpModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
 				7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */,
 				7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */,
+				7A1CF73A2AD856A3006616B3 /* SignUpModel.swift in Sources */,
 				7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */,
 				7A1CF7382AD855DD006616B3 /* UILabel+Extension.swift in Sources */,
 			);
