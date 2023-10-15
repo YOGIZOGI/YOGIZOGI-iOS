@@ -12,17 +12,16 @@
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
 		7A2E20D72A8C68A5000AA770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D62A8C68A5000AA770 /* Assets.xcassets */; };
 		7A2E20DA2A8C68A5000AA770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */; };
-		7A84B4AE2AB9CA0700845EF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4AD2AB9CA0700845EF4 /* Sample.swift */; };
+		7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */; };
 		7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */; };
 		7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */; };
 		7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */; };
 		7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B62AB9D01F00845EF4 /* Sample.swift */; };
-		BC113782D3005D3896D0B8D0 /* Pods_YOZO_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */; };
+		C22C4D0EC45188665C1CAAA6 /* Pods_YOZO_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08ABBDC19F3F5497CE24DD46 /* Pods-YOZO_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.release.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		7144A0FBD6E6FEF58FF69A3D /* Pods-YOZO_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.debug.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2A57A1923D223198E15FB614 /* Pods-YOZO_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.release.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		7A2E20CA2A8C68A4000AA770 /* YOZO_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOZO_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,12 +29,13 @@
 		7A2E20D62A8C68A5000AA770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2E20D92A8C68A5000AA770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2E20DB2A8C68A5000AA770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A84B4AD2AB9CA0700845EF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = "<group>"; };
 		7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
 		7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		7A84B4B62AB9D01F00845EF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
-		B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOZO_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOZO_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.debug.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC113782D3005D3896D0B8D0 /* Pods_YOZO_iOS.framework in Frameworks */,
+				C22C4D0EC45188665C1CAAA6 /* Pods_YOZO_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +53,8 @@
 		78C2EE59FCE3776413B7AC10 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7144A0FBD6E6FEF58FF69A3D /* Pods-YOZO_iOS.debug.xcconfig */,
-				08ABBDC19F3F5497CE24DD46 /* Pods-YOZO_iOS.release.xcconfig */,
+				F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */,
+				2A57A1923D223198E15FB614 /* Pods-YOZO_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,7 +65,7 @@
 				7A2E20CC2A8C68A4000AA770 /* YOZO_iOS */,
 				7A2E20CB2A8C68A4000AA770 /* Products */,
 				78C2EE59FCE3776413B7AC10 /* Pods */,
-				D80BB08BC56C2947D4C9D403 /* Frameworks */,
+				9BE65E01FDDC470D2A31BAEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,7 +136,7 @@
 		7A84B4AA2AB9C9F000845EF4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				7A84B4AD2AB9CA0700845EF4 /* Sample.swift */,
+				7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		D80BB08BC56C2947D4C9D403 /* Frameworks */ = {
+		9BE65E01FDDC470D2A31BAEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B15965514D3740B81354E7F3 /* Pods_YOZO_iOS.framework */,
+				F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,11 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A2E20DE2A8C68A5000AA770 /* Build configuration list for PBXNativeTarget "YOZO_iOS" */;
 			buildPhases = (
-				22B4F74709C7E7EC1390AF45 /* [CP] Check Pods Manifest.lock */,
+				8A3B3903164F6D844AA96CF3 /* [CP] Check Pods Manifest.lock */,
 				7A2E20C62A8C68A4000AA770 /* Sources */,
 				7A2E20C72A8C68A4000AA770 /* Frameworks */,
 				7A2E20C82A8C68A4000AA770 /* Resources */,
-				F4B35EBD43B88661B5DC6166 /* [CP] Embed Pods Frameworks */,
+				9787CAB7AE41348EAB07B764 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +227,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		22B4F74709C7E7EC1390AF45 /* [CP] Check Pods Manifest.lock */ = {
+		8A3B3903164F6D844AA96CF3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,7 +249,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F4B35EBD43B88661B5DC6166 /* [CP] Embed Pods Frameworks */ = {
+		9787CAB7AE41348EAB07B764 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A84B4AE2AB9CA0700845EF4 /* Sample.swift in Sources */,
+				7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */,
 				7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
@@ -414,7 +414,7 @@
 		};
 		7A2E20DF2A8C68A5000AA770 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7144A0FBD6E6FEF58FF69A3D /* Pods-YOZO_iOS.debug.xcconfig */;
+			baseConfigurationReference = F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +443,7 @@
 		};
 		7A2E20E02A8C68A5000AA770 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08ABBDC19F3F5497CE24DD46 /* Pods-YOZO_iOS.release.xcconfig */;
+			baseConfigurationReference = 2A57A1923D223198E15FB614 /* Pods-YOZO_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
