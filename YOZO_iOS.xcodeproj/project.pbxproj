@@ -12,6 +12,9 @@
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
 		7A2E20D72A8C68A5000AA770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D62A8C68A5000AA770 /* Assets.xcassets */; };
 		7A2E20DA2A8C68A5000AA770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */; };
+		7A70BDF32AE598B6008BC964 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */; };
+		7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF42AE598E2008BC964 /* SignUpCell.swift */; };
+		7A70BDF72AE5990F008BC964 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF62AE5990F008BC964 /* SignUpModel.swift */; };
 		7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */; };
 		7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */; };
 		7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */; };
@@ -29,6 +32,9 @@
 		7A2E20D62A8C68A5000AA770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2E20D92A8C68A5000AA770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2E20DB2A8C68A5000AA770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		7A70BDF42AE598E2008BC964 /* SignUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCell.swift; sourceTree = "<group>"; };
+		7A70BDF62AE5990F008BC964 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = "<group>"; };
 		7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
@@ -121,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
+				7A70BDF42AE598E2008BC964 /* SignUpCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				7A84B4B62AB9D01F00845EF4 /* Sample.swift */,
+				7A70BDF62AE5990F008BC964 /* SignUpModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */,
 				7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */,
 				7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */,
+				7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -276,11 +285,14 @@
 				7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */,
 				7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
+				7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
 				7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */,
 				7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */,
+				7A70BDF72AE5990F008BC964 /* SignUpModel.swift in Sources */,
 				7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */,
+				7A70BDF32AE598B6008BC964 /* UILabel+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
