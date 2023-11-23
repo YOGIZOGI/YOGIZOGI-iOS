@@ -14,5 +14,6 @@ target 'YOZO_iOS' do
   pod 'RxSwift', '~> 6.5.0'
   pod 'RxCocoa', '~> 6.5.0'
   pod 'RxAlamofire'
+  pod 'Then'
 
 end

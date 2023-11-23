@@ -12,6 +12,11 @@
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
 		7A2E20D72A8C68A5000AA770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D62A8C68A5000AA770 /* Assets.xcassets */; };
 		7A2E20DA2A8C68A5000AA770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */; };
+		7A5286232B0F7E470068A300 /* NanumSquareNeo-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5286212B0F7C3C0068A300 /* NanumSquareNeo-Variable.ttf */; };
+		7A5286242B0F7E490068A300 /* 210 나무고딕OTF B.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A52861E2B0F7C3C0068A300 /* 210 나무고딕OTF B.otf */; };
+		7A5286252B0F7E4B0068A300 /* 210 나무고딕OTF EB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A5286202B0F7C3C0068A300 /* 210 나무고딕OTF EB.otf */; };
+		7A5286262B0F7E4F0068A300 /* 210 나무고딕OTF L.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A52861D2B0F7C3C0068A300 /* 210 나무고딕OTF L.otf */; };
+		7A5286272B0F7E510068A300 /* 210 나무고딕OTF R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A52861F2B0F7C3C0068A300 /* 210 나무고딕OTF R.otf */; };
 		7A70BDF32AE598B6008BC964 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */; };
 		7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF42AE598E2008BC964 /* SignUpCell.swift */; };
 		7A70BDF72AE5990F008BC964 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF62AE5990F008BC964 /* SignUpModel.swift */; };
@@ -32,6 +37,11 @@
 		7A2E20D62A8C68A5000AA770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2E20D92A8C68A5000AA770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2E20DB2A8C68A5000AA770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A52861D2B0F7C3C0068A300 /* 210 나무고딕OTF L.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "210 나무고딕OTF L.otf"; sourceTree = "<group>"; };
+		7A52861E2B0F7C3C0068A300 /* 210 나무고딕OTF B.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "210 나무고딕OTF B.otf"; sourceTree = "<group>"; };
+		7A52861F2B0F7C3C0068A300 /* 210 나무고딕OTF R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "210 나무고딕OTF R.otf"; sourceTree = "<group>"; };
+		7A5286202B0F7C3C0068A300 /* 210 나무고딕OTF EB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "210 나무고딕OTF EB.otf"; sourceTree = "<group>"; };
+		7A5286212B0F7C3C0068A300 /* NanumSquareNeo-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumSquareNeo-Variable.ttf"; sourceTree = "<group>"; };
 		7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		7A70BDF42AE598E2008BC964 /* SignUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCell.swift; sourceTree = "<group>"; };
 		7A70BDF62AE5990F008BC964 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
@@ -86,6 +96,7 @@
 		7A2E20CC2A8C68A4000AA770 /* YOZO_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				7A5286222B0F7C450068A300 /* Fonts */,
 				7A2E20DB2A8C68A5000AA770 /* Info.plist */,
 				7A84B4A92AB9C9E100845EF4 /* Models */,
 				7A84B4AA2AB9C9F000845EF4 /* ViewModels */,
@@ -96,6 +107,18 @@
 				7A84B4A42AB9C96500845EF4 /* AppDelegate */,
 			);
 			path = YOZO_iOS;
+			sourceTree = "<group>";
+		};
+		7A5286222B0F7C450068A300 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7A5286212B0F7C3C0068A300 /* NanumSquareNeo-Variable.ttf */,
+				7A52861E2B0F7C3C0068A300 /* 210 나무고딕OTF B.otf */,
+				7A5286202B0F7C3C0068A300 /* 210 나무고딕OTF EB.otf */,
+				7A52861D2B0F7C3C0068A300 /* 210 나무고딕OTF L.otf */,
+				7A52861F2B0F7C3C0068A300 /* 210 나무고딕OTF R.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		7A84B4A32AB9C93700845EF4 /* Resources */ = {
@@ -229,7 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2E20DA2A8C68A5000AA770 /* LaunchScreen.storyboard in Resources */,
+				7A5286232B0F7E470068A300 /* NanumSquareNeo-Variable.ttf in Resources */,
+				7A5286252B0F7E4B0068A300 /* 210 나무고딕OTF EB.otf in Resources */,
+				7A5286262B0F7E4F0068A300 /* 210 나무고딕OTF L.otf in Resources */,
+				7A5286272B0F7E510068A300 /* 210 나무고딕OTF R.otf in Resources */,
 				7A2E20D72A8C68A5000AA770 /* Assets.xcassets in Resources */,
+				7A5286242B0F7E490068A300 /* 210 나무고딕OTF B.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
