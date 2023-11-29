@@ -7,24 +7,9 @@
 
 import Foundation
 
-struct User: Decodable{
-    let name: String
-    let pw: String
-    let nickName: String
-    let phoneNum: String
+struct Auth: Decodable{
     
-    private enum CodingKeys: String, CodingKey {
-        case name = "accountName"
-        case pw = "password"
-        case nickName
-        case phoneNum = "phoneNumber"
-    }
+    let status: String
+    let description: String
     
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        name = try container.decode(String.self, forKey: .name)
-        pw = try container.decode(String.self, forKey: .pw)
-        nickName = try container.decode(String.self, forKey: .name)
-        phoneNum = try container.decode(String.self, forKey: .pw)
-    }
 }
