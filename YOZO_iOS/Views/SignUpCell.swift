@@ -16,7 +16,7 @@ class SignUpCell: UIViewController {
     
     var stepMarkers = [UIView]()
     let numberOfSteps = 4
-    let markerDiameter: CGFloat = 10.0
+    let markerDiameter: CGFloat = 7.0
     let progressBarHorizontalInset: CGFloat = 45.0
     let progressBarHeight: CGFloat = 2.0
     
@@ -81,7 +81,6 @@ class SignUpCell: UIViewController {
         $0.placeholder = "'-'제외 ex)01012345678"
         $0.font = UIFont(name: "NanumSquareNeo-Variable_Regular", size: 15)
         $0.insetX = 12
-        $0.becomeFirstResponder()
     }
     
     
@@ -89,6 +88,7 @@ class SignUpCell: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        authTextField.becomeFirstResponder()
         //getFontName()
         setUp()
         
@@ -112,7 +112,7 @@ class SignUpCell: UIViewController {
         progressBarBackgroundView.snp.makeConstraints {
             $0.top.equalTo(view.snp.top).offset(131)
             $0.leading.equalTo(view.snp.leading).offset(progressBarHorizontalInset)
-            $0.trailing.equalTo(view.snp.trailing).offset(-137)
+            $0.trailing.equalTo(InputPhoneNumLabel)
             $0.height.equalTo(progressBarHeight)
         }
         
@@ -152,7 +152,7 @@ class SignUpCell: UIViewController {
         }
         
         authBtn.snp.makeConstraints {
-            $0.top.equalTo(authTextField.snp.bottom).offset(45)
+            $0.top.equalTo(authTextField.snp.bottom).offset(72)
             $0.leading.trailing.equalTo(0)
             $0.height.equalTo(65)
         }
@@ -168,23 +168,29 @@ class SignUpCell: UIViewController {
         stepMarkers.forEach { $0.removeFromSuperview() }
         stepMarkers.removeAll()
         
-        let spacing = (view.frame.width - 2 * progressBarHorizontalInset) / CGFloat(numberOfSteps - 1)
-        for i in 0..<numberOfSteps {
-            let stepMarker = UIView()
-            stepMarker.backgroundColor = UIColor(r: 219, g: 219, b: 219)
-            stepMarker.layer.cornerRadius = markerDiameter / 2
-            view.addSubview(stepMarker)
-            stepMarkers.append(stepMarker)
-            
-            stepMarker.snp.makeConstraints { make in
-                make.centerX.equalTo(progressBarBackgroundView.snp.leading).offset(spacing * CGFloat(i))
-                make.centerY.equalTo(progressBarBackgroundView.snp.centerY)
-                make.width.height.equalTo(markerDiameter)
-            }
-        }
+        let progressBarTotalWidth = progressBarBackgroundView.frame.width
+           let spacing = progressBarTotalWidth / CGFloat(numberOfSteps - 1)
         
-        // 첫 번째 마커는 항상 노란색
-        stepMarkers.first?.backgroundColor = UIColor(r: 255, g: 216, b: 0)
+           for i in 0..<numberOfSteps {
+              // let stepMarker = GradientView()
+               let stepMarker = UIView()
+               
+               stepMarker.backgroundColor = UIColor(r: 219, g: 219, b: 219)
+               view.addSubview(stepMarker)
+               stepMarkers.append(stepMarker)
+               
+               stepMarker.layer.cornerRadius = markerDiameter / 2
+               stepMarker.clipsToBounds = true
+
+               stepMarker.snp.makeConstraints { make in
+                   make.centerX.equalTo(progressBarBackgroundView.snp.leading).offset(spacing * CGFloat(i))
+                   make.centerY.equalTo(progressBarBackgroundView.snp.centerY)
+                   make.width.height.equalTo(markerDiameter)
+               }
+           }
+
+           // 첫 번째 마커는 항상 노란색
+           stepMarkers.first?.backgroundColor = UIColor(r: 255, g: 216, b: 58)
         
     }
 
@@ -207,9 +213,11 @@ class SignUpCell: UIViewController {
         }
     }
 
+    
     @objc func authBtnTapped() {
 
         updateProgressBar(to: 1)
+        
         
         guard let phoneNum = authTextField.text, !phoneNum.isEmpty else {
             

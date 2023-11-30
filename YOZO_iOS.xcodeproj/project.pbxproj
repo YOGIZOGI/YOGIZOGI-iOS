@@ -18,6 +18,7 @@
 		7A5286262B0F7E4F0068A300 /* 210 나무고딕OTF L.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A52861D2B0F7C3C0068A300 /* 210 나무고딕OTF L.otf */; };
 		7A5286272B0F7E510068A300 /* 210 나무고딕OTF R.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A52861F2B0F7C3C0068A300 /* 210 나무고딕OTF R.otf */; };
 		7A5286292B1772270068A300 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5286282B1772270068A300 /* SignUpViewModel.swift */; };
+		7A52862B2B18672D0068A300 /* MarkerGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52862A2B18672D0068A300 /* MarkerGradientView.swift */; };
 		7A70BDF32AE598B6008BC964 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */; };
 		7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF42AE598E2008BC964 /* SignUpCell.swift */; };
 		7A70BDF72AE5990F008BC964 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF62AE5990F008BC964 /* SignUpModel.swift */; };
@@ -44,6 +45,7 @@
 		7A5286202B0F7C3C0068A300 /* 210 나무고딕OTF EB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "210 나무고딕OTF EB.otf"; sourceTree = "<group>"; };
 		7A5286212B0F7C3C0068A300 /* NanumSquareNeo-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumSquareNeo-Variable.ttf"; sourceTree = "<group>"; };
 		7A5286282B1772270068A300 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		7A52862A2B18672D0068A300 /* MarkerGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerGradientView.swift; sourceTree = "<group>"; };
 		7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		7A70BDF42AE598E2008BC964 /* SignUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCell.swift; sourceTree = "<group>"; };
 		7A70BDF62AE5990F008BC964 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
 				7A70BDF42AE598E2008BC964 /* SignUpCell.swift */,
+				7A52862A2B18672D0068A300 /* MarkerGradientView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
 				7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */,
+				7A52862B2B18672D0068A300 /* MarkerGradientView.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
 				7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */,
