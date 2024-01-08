@@ -1,5 +1,5 @@
 //
-//  SignUpCell.swift
+//  InputNumCell.swift
 //  YOZO_iOS
 //
 //  Created by 홍서린 on 2023/10/13.
@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 import Then
 
-class SignUpCell: UIViewController {
+class InputNumCell: UIViewController {
     
     private let authViewModel = SignUpViewModel()
     
@@ -42,6 +42,7 @@ class SignUpCell: UIViewController {
     let InputPhoneNumLabel = UILabel().then {
         
         $0.text = "60초면 가입완료!\n본인인증을 위해\n전화번호를 입력해주세요."
+        $0.setLineSpacing(spacing: 10.0)
         
         let range = ($0.text! as NSString).range(of: "전화번호를 입력")
         $0.numberOfLines = 3
@@ -214,10 +215,9 @@ class SignUpCell: UIViewController {
     }
 
     
-    @objc func authBtnTapped() {
-
-        updateProgressBar(to: 1)
+    @objc func authBtnTapped(_ sender: Any) {
         
+        updateProgressBar(to: 1)
         
         guard let phoneNum = authTextField.text, !phoneNum.isEmpty else {
             
@@ -229,27 +229,12 @@ class SignUpCell: UIViewController {
             return
         }
         
-        authViewModel.authenticatePhoneNum(phoneNum) { authResponse in
-            DispatchQueue.main.async {
-                if let auth = authResponse {
-                    // `Auth` 모델에서 `status` 필드를 확인하여 결과에 따라 분기 처리
-                    switch auth.status {
-                    case "SUCCESS":
-                        // 회원가입 가능 상태 처리
-                        print("회원가입 가능")
-                    case "FAILURE":
-                        // 이미 존재하는 전화번호 상태 처리
-                        print("이미 있는 전화번호")
-                    default:
-                        // 예상치 못한 상태 처리
-                        print("알 수 없는 오류가 발생했습니다")
-                    }
-                } else {
-                    // 서버로부터 응답이 없거나 처리할 수 없는 응답일 경우
-                    print("인증 실패: 서버로부터 응답을 받을 수 없습니다")
-                }
-            }
-        }
+        let nav = getAuthNumCell()
+        nav.modalPresentationStyle = .fullScreen
+        self.present(nav, animated: true, completion: nil) 
+        
+        nav.title = "본인인증"
+
     }
    
   

@@ -20,13 +20,15 @@
 		7A5286292B1772270068A300 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5286282B1772270068A300 /* SignUpViewModel.swift */; };
 		7A52862B2B18672D0068A300 /* MarkerGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52862A2B18672D0068A300 /* MarkerGradientView.swift */; };
 		7A70BDF32AE598B6008BC964 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */; };
-		7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF42AE598E2008BC964 /* SignUpCell.swift */; };
+		7A70BDF52AE598E2008BC964 /* InputNumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF42AE598E2008BC964 /* InputNumCell.swift */; };
 		7A70BDF72AE5990F008BC964 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70BDF62AE5990F008BC964 /* SignUpModel.swift */; };
 		7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */; };
 		7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */; };
 		7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */; };
 		7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */; };
 		7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B62AB9D01F00845EF4 /* Sample.swift */; };
+		7AA565D52B4C41C600E351D4 /* getAuthNumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA565D42B4C41C600E351D4 /* getAuthNumCell.swift */; };
+		7AA565D72B4C4A6D00E351D4 /* InputPwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA565D62B4C4A6D00E351D4 /* InputPwCell.swift */; };
 		C22C4D0EC45188665C1CAAA6 /* Pods_YOZO_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,13 +49,15 @@
 		7A5286282B1772270068A300 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		7A52862A2B18672D0068A300 /* MarkerGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerGradientView.swift; sourceTree = "<group>"; };
 		7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
-		7A70BDF42AE598E2008BC964 /* SignUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCell.swift; sourceTree = "<group>"; };
+		7A70BDF42AE598E2008BC964 /* InputNumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNumCell.swift; sourceTree = "<group>"; };
 		7A70BDF62AE5990F008BC964 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
 		7A84B4AD2AB9CA0700845EF4 /* Sample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1.swift; sourceTree = "<group>"; };
 		7A84B4B02AB9CD5600845EF4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
 		7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		7A84B4B62AB9D01F00845EF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		7AA565D42B4C41C600E351D4 /* getAuthNumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAuthNumCell.swift; sourceTree = "<group>"; };
+		7AA565D62B4C4A6D00E351D4 /* InputPwCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPwCell.swift; sourceTree = "<group>"; };
 		F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOZO_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.debug.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +106,7 @@
 			children = (
 				7A5286222B0F7C450068A300 /* Fonts */,
 				7A2E20DB2A8C68A5000AA770 /* Info.plist */,
+				7AA565CF2B4C410800E351D4 /* Services */,
 				7A84B4A92AB9C9E100845EF4 /* Models */,
 				7A84B4AA2AB9C9F000845EF4 /* ViewModels */,
 				7A84B4A52AB9C98800845EF4 /* Controllers */,
@@ -154,7 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
-				7A70BDF42AE598E2008BC964 /* SignUpCell.swift */,
+				7A70BDF42AE598E2008BC964 /* InputNumCell.swift */,
+				7AA565D42B4C41C600E351D4 /* getAuthNumCell.swift */,
+				7AA565D62B4C4A6D00E351D4 /* InputPwCell.swift */,
 				7A52862A2B18672D0068A300 /* MarkerGradientView.swift */,
 			);
 			path = Views;
@@ -187,6 +194,13 @@
 				7A70BDF22AE598B6008BC964 /* UILabel+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7AA565CF2B4C410800E351D4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		9BE65E01FDDC470D2A31BAEF /* Frameworks */ = {
@@ -319,7 +333,7 @@
 				7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */,
 				7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
-				7A70BDF52AE598E2008BC964 /* SignUpCell.swift in Sources */,
+				7A70BDF52AE598E2008BC964 /* InputNumCell.swift in Sources */,
 				7A52862B2B18672D0068A300 /* MarkerGradientView.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
@@ -327,8 +341,10 @@
 				7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */,
 				7A70BDF72AE5990F008BC964 /* SignUpModel.swift in Sources */,
 				7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */,
+				7AA565D72B4C4A6D00E351D4 /* InputPwCell.swift in Sources */,
 				7A5286292B1772270068A300 /* SignUpViewModel.swift in Sources */,
 				7A70BDF32AE598B6008BC964 /* UILabel+Extension.swift in Sources */,
+				7AA565D52B4C41C600E351D4 /* getAuthNumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

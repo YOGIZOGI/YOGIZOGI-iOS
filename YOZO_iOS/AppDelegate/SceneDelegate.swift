@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
            guard let windowScene = (scene as? UIWindowScene) else { return }
            
            let window = UIWindow(windowScene: windowScene)
-           window.rootViewController = SignUpCell() // 시작시 띄울 ViewController
+           window.rootViewController = InputNumCell() // 시작시 띄울 ViewController
            window.makeKeyAndVisible()
            self.window = window
        }

@@ -13,7 +13,7 @@ class SignUpViewModel {
     
     // 서버로 전화번호 인증을 요청하는 함수 정의
     func authenticatePhoneNum(_ phoneNum: String, completion: @escaping (Auth?) -> Void) {
-        let urlString = urlString + "verification/check"
+        let urlString = urlString + "verification/code"
         guard let url = URL(string: urlString) else {
             completion(nil)
             return
