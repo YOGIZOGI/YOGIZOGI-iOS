@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CB144ED2B591F1C00CDB992 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB144EC2B591F1C00CDB992 /* LoginView.swift */; };
+		6CB144EF2B591F4500CDB992 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB144EE2B591F4500CDB992 /* LoginViewController.swift */; };
+		6CB144F22B591F9900CDB992 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6CB144F12B591F9900CDB992 /* SnapKit */; };
+		6CB144F42B591F9900CDB992 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6CB144F32B591F9900CDB992 /* SnapKit-Dynamic */; };
 		7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */; };
 		7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */; };
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
@@ -17,11 +21,11 @@
 		7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */; };
 		7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */; };
 		7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A84B4B62AB9D01F00845EF4 /* Sample.swift */; };
-		C22C4D0EC45188665C1CAAA6 /* Pods_YOZO_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A57A1923D223198E15FB614 /* Pods-YOZO_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.release.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6CB144EC2B591F1C00CDB992 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../Documents/LoginView.swift; sourceTree = "<group>"; };
+		6CB144EE2B591F4500CDB992 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../Documents/LoginViewController.swift; sourceTree = "<group>"; };
 		7A2E20CA2A8C68A4000AA770 /* YOZO_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOZO_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +38,6 @@
 		7A84B4B22AB9CD6E00845EF4 /* UITextField+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extenstion.swift"; sourceTree = "<group>"; };
 		7A84B4B42AB9CD8A00845EF4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		7A84B4B62AB9D01F00845EF4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
-		F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YOZO_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOZO_iOS.debug.xcconfig"; path = "Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C22C4D0EC45188665C1CAAA6 /* Pods_YOZO_iOS.framework in Frameworks */,
+				6CB144F22B591F9900CDB992 /* SnapKit in Frameworks */,
+				6CB144F42B591F9900CDB992 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +56,6 @@
 		78C2EE59FCE3776413B7AC10 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */,
-				2A57A1923D223198E15FB614 /* Pods-YOZO_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,7 +66,6 @@
 				7A2E20CC2A8C68A4000AA770 /* YOZO_iOS */,
 				7A2E20CB2A8C68A4000AA770 /* Products */,
 				78C2EE59FCE3776413B7AC10 /* Pods */,
-				9BE65E01FDDC470D2A31BAEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2E20D12A8C68A4000AA770 /* ViewController.swift */,
+				6CB144EE2B591F4500CDB992 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -121,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
+				6CB144EC2B591F1C00CDB992 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,14 +153,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		9BE65E01FDDC470D2A31BAEF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F3C18DFC89DF20EBD120223E /* Pods_YOZO_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,17 +160,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A2E20DE2A8C68A5000AA770 /* Build configuration list for PBXNativeTarget "YOZO_iOS" */;
 			buildPhases = (
-				8A3B3903164F6D844AA96CF3 /* [CP] Check Pods Manifest.lock */,
 				7A2E20C62A8C68A4000AA770 /* Sources */,
 				7A2E20C72A8C68A4000AA770 /* Frameworks */,
 				7A2E20C82A8C68A4000AA770 /* Resources */,
-				9787CAB7AE41348EAB07B764 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = YOZO_iOS;
+			packageProductDependencies = (
+				6CB144F12B591F9900CDB992 /* SnapKit */,
+				6CB144F32B591F9900CDB992 /* SnapKit-Dynamic */,
+			);
 			productName = YOZO_iOS;
 			productReference = 7A2E20CA2A8C68A4000AA770 /* YOZO_iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -205,6 +201,9 @@
 				Base,
 			);
 			mainGroup = 7A2E20C12A8C68A4000AA770;
+			packageReferences = (
+				6CB144F02B591F9900CDB992 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 7A2E20CB2A8C68A4000AA770 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -226,48 +225,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8A3B3903164F6D844AA96CF3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YOZO_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9787CAB7AE41348EAB07B764 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YOZO_iOS/Pods-YOZO_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7A2E20C62A8C68A4000AA770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,10 +233,12 @@
 				7A84B4AE2AB9CA0700845EF4 /* Sample1.swift in Sources */,
 				7A84B4B72AB9D01F00845EF4 /* Sample.swift in Sources */,
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
+				6CB144ED2B591F1C00CDB992 /* LoginView.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
 				7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */,
 				7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */,
+				6CB144EF2B591F4500CDB992 /* LoginViewController.swift in Sources */,
 				7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,7 +373,6 @@
 		};
 		7A2E20DF2A8C68A5000AA770 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F76102E8277379C3C1F45F40 /* Pods-YOZO_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +401,6 @@
 		};
 		7A2E20E02A8C68A5000AA770 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A57A1923D223198E15FB614 /* Pods-YOZO_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +449,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CB144F02B591F9900CDB992 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CB144F12B591F9900CDB992 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CB144F02B591F9900CDB992 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6CB144F32B591F9900CDB992 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CB144F02B591F9900CDB992 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A2E20C22A8C68A4000AA770 /* Project object */;
 }
