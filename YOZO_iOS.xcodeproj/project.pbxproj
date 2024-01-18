@@ -11,6 +11,8 @@
 		6CB144EF2B591F4500CDB992 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB144EE2B591F4500CDB992 /* LoginViewController.swift */; };
 		6CB144F22B591F9900CDB992 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6CB144F12B591F9900CDB992 /* SnapKit */; };
 		6CB144F42B591F9900CDB992 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6CB144F32B591F9900CDB992 /* SnapKit-Dynamic */; };
+		6CB144F92B59253E00CDB992 /* SocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB144F82B59253E00CDB992 /* SocialLoginViewController.swift */; };
+		6CB144FB2B59255600CDB992 /* SocialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB144FA2B59255600CDB992 /* SocialLoginButton.swift */; };
 		7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */; };
 		7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */; };
 		7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E20D12A8C68A4000AA770 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		6CB144EC2B591F1C00CDB992 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../Documents/LoginView.swift; sourceTree = "<group>"; };
 		6CB144EE2B591F4500CDB992 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../Documents/LoginViewController.swift; sourceTree = "<group>"; };
+		6CB144F82B59253E00CDB992 /* SocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SocialLoginViewController.swift; path = ../../../../Documents/SocialLoginViewController.swift; sourceTree = "<group>"; };
+		6CB144FA2B59255600CDB992 /* SocialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SocialLoginButton.swift; path = ../../../../Documents/SocialLoginButton.swift; sourceTree = "<group>"; };
 		7A2E20CA2A8C68A4000AA770 /* YOZO_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOZO_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2E20CD2A8C68A4000AA770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2E20CF2A8C68A4000AA770 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 			children = (
 				7A2E20D12A8C68A4000AA770 /* ViewController.swift */,
 				6CB144EE2B591F4500CDB992 /* LoginViewController.swift */,
+				6CB144F82B59253E00CDB992 /* SocialLoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			children = (
 				7A2E20D82A8C68A5000AA770 /* LaunchScreen.storyboard */,
 				6CB144EC2B591F1C00CDB992 /* LoginView.swift */,
+				6CB144FA2B59255600CDB992 /* SocialLoginButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,10 +241,12 @@
 				7A2E20D22A8C68A4000AA770 /* ViewController.swift in Sources */,
 				6CB144ED2B591F1C00CDB992 /* LoginView.swift in Sources */,
 				7A2E20CE2A8C68A4000AA770 /* AppDelegate.swift in Sources */,
+				6CB144FB2B59255600CDB992 /* SocialLoginButton.swift in Sources */,
 				7A2E20D02A8C68A4000AA770 /* SceneDelegate.swift in Sources */,
 				7A84B4B32AB9CD6E00845EF4 /* UITextField+Extenstion.swift in Sources */,
 				7A84B4B52AB9CD8A00845EF4 /* InsetTextField.swift in Sources */,
 				6CB144EF2B591F4500CDB992 /* LoginViewController.swift in Sources */,
+				6CB144F92B59253E00CDB992 /* SocialLoginViewController.swift in Sources */,
 				7A84B4B12AB9CD5600845EF4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
